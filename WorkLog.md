@@ -1,3 +1,7 @@
+# 2019-08-09 00:19:46.950974: clock-out
+* looking at python-matlab bridge https://github.com/arokem/python-matlab-bridge
+* Also looking for auto-translator smop - looks promising!
+* Got utf-8 reading errors - try copy/pasting
 
 # 2019-08-08 23:44:14.862557: clock-in
 
