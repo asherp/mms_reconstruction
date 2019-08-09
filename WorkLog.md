@@ -1,3 +1,6 @@
+
+# 2019-08-08 23:44:14.862557: clock-in
+
 # 2019-08-08 23:39:05.758576: clock-out
 * installed octave and jupyter with gnuplot
 * tested sample notebook
