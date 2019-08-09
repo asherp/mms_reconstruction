@@ -1,3 +1,8 @@
+# 2019-08-08 23:39:05.758576: clock-out
+* installed octave and jupyter with gnuplot
+* tested sample notebook
+* Loaded most of the code into jupyter
+* Need to break up the code and run in sections
 
 # 2019-08-08 22:09:05.490844: clock-in
 
