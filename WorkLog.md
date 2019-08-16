@@ -1,3 +1,6 @@
+
+# 2019-08-16 17:12:08.756158: clock-in
+
 # 2019-08-09 00:19:46.950974: clock-out
 * looking at python-matlab bridge https://github.com/arokem/python-matlab-bridge
 * Also looking for auto-translator smop - looks promising!
