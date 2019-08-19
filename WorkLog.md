@@ -1,4 +1,8 @@
+
+# 2019-08-19 15:34:22.080843: clock-in
+
 # 2019-08-16 17:43:49.167917: clock-out
+* parsing into python, smop was written for 2.7 so bugfixes..
 
 # 2019-08-16 17:12:08.756158: clock-in
 
