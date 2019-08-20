@@ -1,3 +1,6 @@
+
+# 2019-08-20 12:50:05.585350: clock-in
+
 # 2019-08-20 12:35:58.762521: clock-out
 * going to try smop with python 2.7
 * Loading data from matlab save files
