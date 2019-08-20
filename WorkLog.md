@@ -1,3 +1,6 @@
+
+# 2019-08-20 11:20:14.096712: clock-in
+
 # 2019-08-19 17:12:20.316343: clock-out
 * working through PolySetup
 * most of the fitting is in PolySolution
