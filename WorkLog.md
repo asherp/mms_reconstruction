@@ -1,3 +1,6 @@
+
+# 2019-08-21 14:57:41.953489: clock-in
+
 # 2019-08-21 13:01:24.897211: clock-out
 * plotting arrays
 * defining arange so it returns 0-indexed values
