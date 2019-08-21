@@ -1,3 +1,6 @@
+
+# 2019-08-21 16:56:58.801777: clock-in
+
 # 2019-08-21 16:35:56.760909: clock-out
 * Working through polysetup
 
