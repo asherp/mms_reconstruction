@@ -1,3 +1,6 @@
+
+# 2019-08-22 15:36:05.528427: clock-in
+
 # 2019-08-22 14:17:29.855856: clock-out
 * pushing to private repo
 * finished polysetup
