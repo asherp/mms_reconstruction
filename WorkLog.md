@@ -1,3 +1,6 @@
+# 2019-08-23 16:30:46.460946: clock-out
+* computed solution for each time step
+* lots of variance in solution
 
 # 2019-08-23 15:17:10.120207: clock-in
 
