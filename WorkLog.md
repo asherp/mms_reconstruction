@@ -1,3 +1,6 @@
+
+# 2019-08-23 11:01:25.738946: clock-in
+
 # 2019-08-22 17:29:33.998244: clock-out
 * working through PolySolution
 
