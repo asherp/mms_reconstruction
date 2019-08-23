@@ -1,3 +1,6 @@
+
+# 2019-08-23 15:17:10.120207: clock-in
+
 # 2019-08-23 15:14:57.450442: clock-out
 * Looking at sequential least squares
 * constructed callable function to be minimized
