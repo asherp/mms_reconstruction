@@ -1,3 +1,7 @@
+# 2019-08-23 12:01:50.563258: clock-out
+* PolySolution
+* Padding arrays just prior to solver
+* choosing a linear least squares solver
 
 # 2019-08-23 11:01:25.738946: clock-in
 
