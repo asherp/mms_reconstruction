@@ -1,3 +1,6 @@
+
+# 2019-08-23 13:19:53.913123: clock-in
+
 # 2019-08-23 12:01:50.563258: clock-out
 * PolySolution
 * Padding arrays just prior to solver
