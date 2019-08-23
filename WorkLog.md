@@ -1,3 +1,8 @@
+# 2019-08-23 15:14:57.450442: clock-out
+* Looking at sequential least squares
+* constructed callable function to be minimized
+* added equality constraint
+* minimized function
 
 # 2019-08-23 13:19:53.913123: clock-in
 
