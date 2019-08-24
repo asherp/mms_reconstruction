@@ -1,6 +1,10 @@
+
+# 2019-08-24 10:40:41.552612: clock-in
+
 # 2019-08-23 20:49:09.555353: clock-out
 * Bfit calculation
 * Plotting
+* Something goes wrong at mv calculation
 
 # 2019-08-23 19:21:16.259283: clock-in
 
