@@ -1,3 +1,6 @@
+# 2019-08-23 20:49:09.555353: clock-out
+* Bfit calculation
+* Plotting
 
 # 2019-08-23 19:21:16.259283: clock-in
 
