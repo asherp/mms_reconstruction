@@ -1,3 +1,5 @@
+# 2019-08-24 11:09:51.635223: clock-out
+* The dot product may be causing the flippening
 
 # 2019-08-24 10:40:41.552612: clock-in
 
