@@ -1,3 +1,6 @@
+
+# 2019-08-24 23:42:36.954438: clock-in
+
 # 2019-08-24 11:09:51.635223: clock-out
 * The dot product may be causing the flippening
 
