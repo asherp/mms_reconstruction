@@ -1,3 +1,9 @@
+# 2019-08-25 01:07:29.008290: clock-out
+* Investigating flippening
+* Found the problem! From the numpy docs, the eigenvectors are:
+
+> The normalized (unit “length”) eigenvectors, such that the column v[:,i] is the eigenvector corresponding to the eigenvalue w[i].
+So when we get the sorted eigenvectors, we have to index v[:,isort] instead of v[isort]
 
 # 2019-08-24 23:42:36.954438: clock-in
 
