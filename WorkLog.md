@@ -1,3 +1,6 @@
+
+# 2019-08-26 11:30:41.979566: clock-in
+
 # 2019-08-25 01:07:29.008290: clock-out
 * Investigating flippening
 * Found the problem! From the numpy docs, the eigenvectors are:
