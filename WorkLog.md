@@ -1,3 +1,9 @@
+# 2019-08-26 16:05:12.297710: clock-out
+* The fits are still scrambled
+* Splitting off iSystem=2 code
+* Checking if referencing any unpadded variables
+* Got much better graphs using a different least squares method
+* Need to compare closely with figures
 
 # 2019-08-26 12:45:15.156882: clock-in
 
