@@ -1,3 +1,6 @@
+
+# 2019-08-26 17:49:54.964387: clock-in
+
 # 2019-08-26 16:05:12.297710: clock-out
 * The fits are still scrambled
 * Splitting off iSystem=2 code
