@@ -1,3 +1,6 @@
+# 2019-08-26 12:09:51.871169: clock-out: T-5m
+* Checking solution
+* Comparing with plots
 
 # 2019-08-26 11:30:41.979566: clock-in
 
