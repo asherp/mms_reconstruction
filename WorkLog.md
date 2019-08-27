@@ -1,3 +1,9 @@
+# 2019-08-27 13:01:53.889289: clock-out
+* Implemented new python sqlin function
+* Still not getting good fit
+* Testing lsqlin against spec yields good results
+* Perhaps need a plot of dev 
+* Some spacecraft fits are closer than others, but not really good agreement
 
 # 2019-08-27 09:54:04.589499: clock-in
 
