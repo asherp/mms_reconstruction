@@ -1,3 +1,6 @@
+
+# 2019-08-27 09:54:04.589499: clock-in
+
 # 2019-08-26 22:36:45.275019: clock-out
 * looking at scipy's least_squares solver
 May have found an alternative:
