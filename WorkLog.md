@@ -1,3 +1,6 @@
+
+# 2019-08-27 14:36:53.267068: clock-in
+
 # 2019-08-27 13:01:53.889289: clock-out
 * Implemented new python sqlin function
 * Still not getting good fit
