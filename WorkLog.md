@@ -1,3 +1,9 @@
+# 2019-08-27 16:55:35.794293: clock-out
+* Testing original code in octave
+* Installing octave dependencies for optim, which has sqlin function
+* Reproduced figure in octave!
+* Should be able to compare arrays to see what goes wrong in python
+* Comparing the deviations, the solutions for matlab are much better fits than what I'm producing in python
 
 # 2019-08-27 14:36:53.267068: clock-in
 
