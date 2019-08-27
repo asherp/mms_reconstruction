@@ -1,3 +1,9 @@
+# 2019-08-26 22:36:45.275019: clock-out
+* looking at scipy's least_squares solver
+May have found an alternative:
+* http://maggotroot.blogspot.ch/2013/11/constrained-linear-least-squares-in.html
+* https://github.com/KasparP/PSI_simulations/blob/master/Python/SLAPMi/lsqlin.py
+* https://cvxopt.org/install/index.html
 
 # 2019-08-26 20:58:30.063041: clock-in
 
