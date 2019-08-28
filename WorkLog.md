@@ -1,3 +1,6 @@
+
+# 2019-08-28 17:28:04.167681: clock-in
+
 # 2019-08-27 16:55:35.794293: clock-out
 * Testing original code in octave
 * Installing octave dependencies for optim, which has sqlin function
