@@ -1,3 +1,6 @@
+
+# 2019-08-29 10:42:07.150572: clock-in
+
 # 2019-08-29 10:12:57.540840: clock-out: refactoring matlab
 * functionalizing matlab code
 
