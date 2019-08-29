@@ -1,3 +1,6 @@
+
+# 2019-08-29 15:50:39.484858: clock-in
+
 # 2019-08-29 14:42:44.162859: clock-out: kamodofication
 * kamodofying reconstruction
 
