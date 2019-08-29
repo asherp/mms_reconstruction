@@ -1,3 +1,6 @@
+# 2019-08-28 19:24:47.425580: clock-out: implemented oct2py version
+* Using Oct2py to get more accurate solution
+
 
 # 2019-08-28 17:28:04.167681: clock-in
 
