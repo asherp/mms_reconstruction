@@ -1,7 +1,10 @@
+# 2019-08-29 14:42:44.162859: clock-out: kamodofication
+* kamodofying reconstruction
 
 # 2019-08-29 13:09:02.864716: clock-in
 
 # 2019-08-29 12:01:43.113701: clock-out
+* got figure 1 run with octave-python wrapper
 
 # 2019-08-29 10:42:07.150572: clock-in
 
