@@ -1,7 +1,10 @@
+# 2019-08-30 18:41:34.710243: clock-out
+* refactored Denton class
 
 # 2019-08-30 16:51:47.178243: clock-in
 
 # 2019-08-30 15:54:36.623316: clock-out
+* Adding observed fields
 
 # 2019-08-30 15:08:38.508036: clock-in
 
