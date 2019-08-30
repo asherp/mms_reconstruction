@@ -1,3 +1,6 @@
+
+# 2019-08-30 15:08:38.508036: clock-in
+
 # 2019-08-30 13:13:44.887412: clock-out
 * Creating Reconstruction class "Denton"
 
