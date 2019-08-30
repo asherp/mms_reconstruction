@@ -1,87 +1,11 @@
-function setup = PolySetup(intro)
+function setup = PolySetup(intro, mms)
 %%
 iQuadSys = intro.iSystem - 4; % -1/0/1/2/3/4/5 for quad+, quad,quad-,quad--,2D
 setup.iQuadSys = iQuadSys;
 iRotate = intro.iRotate;
 iv = [];
 
-if( iRotate==0 )
-  eLMN0 = [ 1 0 0 ; 0 1 0 ; 0 0 1 ];
-elseif( iRotate==1 )
-  eLMN0 = [ 0.94434 0.26346  -0.197 ; -0.31375 0.90131 -0.29865 ; 0.098878 0.34384 0.93381 ]; % MDDB brst 1.7 to 3.1
-elseif( iRotate==2 )
-  eLMN0 = [ 0.97517 0.14392  -0.1683 ; -0.19417 0.92114 -0.33736 ; 0.10648 0.36166 0.92621 ]; % MDDB brst w offsets 1.7 to 3.1
-elseif( iRotate==3 )
-  eLMN0 = [ 0.9451, 0.2673, -0.1866 ; -0.3139, 0.9011, -0.2990 ; 0.0947, 0.3225, 0.9418 ]; # Kevin MDDB 2 intervals
-elseif( iRotate==4 )
-  eLMN0 = [ 0.9858, 0.0856, -0.1443 ; -0.1290, 0.9367, -0.3256 ; 0.1073, 0.3395, 0.9341 ]; # Kevin MDDB w offsets 2 intervals
-elseif( iRotate==5 )
-  eLMN0 = [ 0.9482, -0.2551, -0.1893 ; 0.1818, 0.9245, -0.3350 ; 0.2604, 0.2832, 0.9230 ]; # Kevin hybrid coordinate System
-elseif( iRotate==11 )
-  eLMN0 = [ 0.3320, 0.03515, 0.9426 ; 0.48134 -0.86566 -0.13725 ; 0.8112, 0.4993, -0.3043 ]; # DEA16
-elseif( iRotate==12 )
-  eLMN0 = [ -0.1569 -0.54442 0.82401 ; 0.34892 -0.81109 -0.46945 ; 0.92392 0.21386 0.31722 ]; # hybrid Wilder 151209
-elseif( iRotate==13 )
-  eLMN0 = [ 0.34469     -0.28887      0.89316 ; 0.04977     -0.94451     -0.32469 ; 0.9374      0.15637     -0.31118 ]; # hybrid Burch and Phan system 42.3-44.5
-elseif( iRotate==14 )
-  eLMN0 = [ 0.34695     -0.29103      0.89159 ; 0.051987     -0.94321     -0.32811 ; 0.93644      0.16019     -0.31212]; # Burh and Phan coords
-elseif( iRotate==15 )
-  eLMN0 = [ -0.19897      0.97917    -0.040455 ; 0.19496     0.080005      0.97754 ;  0.96042      0.18661     -0.20682 ]; # Stefan 150908 event
-elseif( iRotate==16 )
-  eLMN0 = [ 0.23322     0.035048      0.97179 ; 0.21511     -0.97645    -0.016409 ;  0.94833      0.21287     -0.23527 ]; # Kevin 161128
-elseif( iRotate==17 )
-  eLMN0 = [ 0.098095   -0.52482  0.84554 ; -0.40538   -0.79703   -0.44768 ;   0.90887  -0.29885  -0.29093 ]; # Chen 151214
-elseif( iRotate==18 )
-  eLMN0 = [-0.328, 0.945, -0.017 ; 0.240, 0.101, 0.965 ; 0.914, 0.312, -0.260]; # Stefan2
-  for k = 1:3, eLMN0(k,:) = eLMN0(k,:)/norm(eLMN0(k,:)); end, eLMN0(3,:) = cross( eLMN0(1,:) , eLMN0(2,:) );
-elseif( iRotate==19 )
-  eLMN0 = [ 0.3894, -0.2938, 0.8730 ; -0.0079668 -0.94881 -0.31576 ; 0.9210, 0.1160, -0.3718 ]; # DentonEA18 (Burch first crossing)
-elseif( iRotate==20 )
-  eLMN0 = [ -0.46173      0.76738      -0.4449 ; 0.23883       0.5906      0.77081 ; 0.85426      0.24965     -0.45597 ]; # Burch and Phan MGG coords 43.2-43.7
-elseif( iRotate==21 )
-  eLMN0 = [ 0.17198  0.15714  0.97249 ; 0.40448  -0.9114 0.075735 ; 0.89823  0.38033  -0.2203 ]; # Lavraud 151016 hybrid
-elseif( iRotate==22 )
-  eLMN0 = [ 0.157, 0.035, 0.987 ; 0.240, -0.971, -0.0039 ; 0.958, 0.237, -0.161 ]; # Kevin event 161128 X pt system
-elseif( iRotate==23 )
-  eLMN0 = [ -0.0047562      0.66252      0.74903 ; -0.15057     -0.74097      0.65444 ; 0.98859     -0.10967      0.10328 ]; # Hybrid Phan 54.29-54.37
-elseif( iRotate==24 )
-  eLMN0 = [ -0.091 0.87 0.49 ; -0.25 -0.49 0.83 ; 0.96 -0.05 0.27 ]; # Phan System
-  for k = 1:3, eLMN0(k,:) = eLMN0(k,:)/norm(eLMN0(k,:)); end, eLMN0(3,:) = cross( eLMN0(1,:) , eLMN0(2,:) );
-elseif( iRotate==25 )
-  eLMN0 = [ 0.19281409 0.16251622 0.96768342 ; 0.25113898 -0.96151461 0.11143994 ; 0.94855255 0.22153583 -0.22620772 ]; # Kevin event 161128 combination of MDD-B and MVA-Ve
-elseif( iRotate==26 )
-  eLMN0 = [ 0.3603  0.64708  0.67192 ; 0.20513 -0.75763 0.61962 ; 0.91 -0.085413 -0.40571 ]; # WilderEA18, 1/28/17 event hyb t = 32.14 t0 32.4
-elseif( iRotate==27 )
-  eLMN0 = [ -0.16162  0.51616  0.8411 ; 0.10159 -0.83908  0.53444 ; 0.98161 0.17183 0.083176 ]; # WilderEA18, 12/27/16 event hyb t = 43.28 – 43.55
-elseif( iRotate==28 )
-  eLMN0 = [ 0.99163 -0.10289 -0.077992 ; 0.12718 0.88254 0.45272 ; 0.022249 -0.45885  0.88824 ]; #  ZhouEA19, 170810 event hyb t = 31-36
-elseif( iRotate==29 )
-  eLMN0 = [ 0.91348 0.37952 0.14671 ; -0.40313  0.79529  0.45277 ; 0.055158 -0.47274 0.87947 ]; # ZhouEA19, 170810 event MDDB t = 32-33.3
-elseif( iRotate==30 )
-  eLMN0 = [ 0.99921 -0.03951 -0.0042789 ; 0.03621 0.86075 0.50774 ; -0.016378 -0.50749 0.8615 ]; # ZhouEA19, 170810 event MDDB t = 32-32.5, nsmoo = 301, mvav1
-elseif( iRotate==31 ) # little, 301, mvav2
-  eLMN0 = [ 0.99081 -0.12501  -0.051722 ; 0.13392  0.85218  0.50582 ; -0.019156  -0.5081  0.86109 ]; # ZhouEA19, 170810 event MDDB t = 32-32.5, nsmoo = 301, mvav2
-elseif( iRotate==32 )
-  eLMN0 = [ 0.99167 -0.10187 -0.07882 ; 0.12664 0.88281 0.45234 ; 0.023504 -0.45855 0.88836 ]; # #  ZhouEA19, 170810 event hyb t = 31-36. nsmoo=501
-elseif( iRotate==33 ) # big, 301, 31-36
-  eLMN0 = [ 0.99157 -0.10265 -0.079042 ; 0.12744  0.88262  0.45248 ; 0.023316 -0.45874  0.88826 ]; # ZhouEA19, 170810 event hyb t = 31-36. nsmoo=301
-elseif( iRotate==34 ) # tiny, 301, mvav2
-  eLMN0 = [ 0.93242 0.35196 0.082017 ; -0.34845 0.81537 0.46233 ; 0.095847 -0.45966 0.88291 ]; # ZhouEA19, 170810, MDDB t=32.84-32.94
-elseif( iRotate==35 ) # big, 301, 31-35.5
-  eLMN0 = [ 0.98721 -0.13055 -0.091487 ; 0.15797 0.8782 0.45146 ; 0.021408 -0.46014  0.88759];  # # ZhouEA19, 170810 event hyb t = 31-35.5. nsmoo=301
-elseif( iRotate==36 ) # rotation about N_35 opposite to that of 35->34
-  eLMN0 = [   0.77596     -0.55216     -0.30496   ;   0.63041      0.69527      0.34523   ;  0.021408     -0.46014      0.88759 ];
-elseif( iRotate==37 ) # 
-  eLMN0 = [   0.98405     -0.17789    0.0017146 ;       0.16255      0.90304      0.39761 ;     -0.072278     -0.39098      0.91755 ]; # 31-35.5 MBB
-elseif( iRotate==38 )
-  eLMN0 = [   0.19282058,   0.13992811,   0.97120562 ; 0.59811480,  -0.80140370,  -0.0032845179 ; 0.77786818,   0.58152578,  -0.23822020 ]; # Kevin 150919 0741 Event
-elseif( iRotate==39 )
-  eLMN0 = [ 0.21107   0.14168  0.96715 ; 0.46105   -0.88689  0.029299 ; 0.8619  0.43972  -0.25251 ]; # My Hybrid for Kevin 150919 0741 Event (.5s smooth, 20-30.5 s) 
-elseif( iRotate==71 )  
-  eLMN0 = [ 0.98838      0.15194   -0.0035189 ; -0.15193      0.98839    0.0026723 ; 0.0038841   -0.0021066      0.99999 ];     # Y Liu 0.1 to 0.58
-elseif( iRotate==72 )  
-  eLMN0 = [ 1 0 0 ; 0 1 0 ; 0 0 1 ];     % Approx Y Liu
-end
+eLMN0 = elmn_init(iRotate);
 
 iScOutIn = intro.iScOutIn;
 
@@ -128,16 +52,17 @@ gray = [ gray1 gray1 gray1 ];
 % save('mms_read_mag_pos.mat','aa','t','t1','t2','nt','dposa','a_tetrahedron','Jcurl');
 % sDirData = './';
 
-sDirData = intro.sDirData;
+% sDirData = intro.sDirData;
 sDirPlots = './poly/';
-iBurst = intro.iBurst;
-if( iBurst==2 )
-  load([sDirData 'mms_read_mag_pos_magBurst2.mat']);
-elseif( iBurst==1 )
-  load([sDirData 'mms_read_mag_pos_magBurst.mat']);
-else
-  load([sDirData 'mms_read_mag_pos.mat']);
-end
+% iBurst = intro.iBurst;
+
+
+aa = mms.aa;
+t = mms.t;
+dposa = mms.dposa;
+Jcurl = mms.Jcurl;
+a_tetrahedron = mms.a_tetrahedron;
+
 
 aa2 = aa;
 aa = zeros(size(aa));
@@ -471,8 +396,15 @@ setup.Jpvavn2 = Jpvavn2;
 setup.Jpv2 = Jpv2;
 setup.Jpvav2 = Jpvav2;
 
+setup.bv = bv;
 setup.bvn = bvn;
 setup.bavv = bavv;
 setup.mv = mv;
+
+setup.lambda = lambda;
+setup.t = t;
+setup.mvcalc = mvcalc;
+
+setup.dsc = dsc;
 
 end % end function

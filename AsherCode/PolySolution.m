@@ -1045,6 +1045,8 @@ soln.Bfit = Bfit;
 soln.B0fit = B0fit;
 soln.Jpfit = Jpfit;
 soln.Jp0fit = Jp0fit;
+soln.Jpvav3 = Jpvav3;
+soln.Jpv3 = Jpv3;
 
 end
 % end functino
