@@ -1,3 +1,6 @@
+
+# 2019-08-31 12:46:40.914608: clock-in
+
 # 2019-08-30 18:41:34.710243: clock-out
 * refactored Denton class
 
