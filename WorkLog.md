@@ -1,3 +1,7 @@
+# 2019-09-02 17:38:46.527376: clock-out
+* Got Bfield at arbitrary position
+* Got Bfield at arbitrary time
+* Looking at 3D plot
 
 # 2019-09-02 14:22:07.172379: clock-in
 
