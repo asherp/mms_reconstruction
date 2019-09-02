@@ -1,3 +1,6 @@
+# 2019-09-02 13:03:07.146726: clock-out
+* functionalized 2D vector matlab code
+* generated 2D vector plot similar to Figure 2
 
 # 2019-09-02 11:42:59.973564: clock-in
 
