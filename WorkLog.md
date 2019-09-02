@@ -1,3 +1,6 @@
+# 2019-09-02 11:33:07.023394: clock-out
+* Added observed current at spacecraft
+* Adding vector plots
 
 # 2019-09-02 10:38:41.808706: clock-in
 
