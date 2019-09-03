@@ -1,3 +1,6 @@
+
+# 2019-09-03 10:00:35.149993: clock-in
+
 # 2019-09-02 17:38:46.527376: clock-out
 * Got Bfield at arbitrary position
 * Got Bfield at arbitrary time
