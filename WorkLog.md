@@ -1,3 +1,6 @@
+
+# 2019-09-03 11:27:00.923804: clock-in
+
 # 2019-09-03 11:01:16.212944: clock-out
 * Working on streamlines
 * Normalizing fields
