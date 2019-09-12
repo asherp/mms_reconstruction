@@ -1,7 +1,12 @@
+# 2019-09-12 16:26:24.646145: clock-out
+
+* Continuing field line integration
+* Not sure why the integrator is not following the field
 
 # 2019-09-12 15:32:27.581460: clock-in
 
 # 2019-09-12 13:07:03.145751: clock-out
+* Started field line tracing
 
 # 2019-09-12 12:29:25.073245: clock-in
 
