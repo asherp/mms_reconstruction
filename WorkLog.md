@@ -1,3 +1,6 @@
+
+# 2019-09-12 12:29:25.073245: clock-in
+
 # 2019-09-03 13:06:46.121506: clock-out
 * Got normalized expression for fields
 * Need to change integration symbol in kamodo
