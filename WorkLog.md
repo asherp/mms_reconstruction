@@ -1,3 +1,6 @@
+# 2019-09-13 14:53:15.978872: clock-out
+* Magnetic field trace bugs
+* Still getting conflicting field line shape and vectors
 
 # 2019-09-13 12:28:51.332360: clock-in
 
