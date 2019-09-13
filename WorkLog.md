@@ -1,3 +1,6 @@
+
+# 2019-09-13 12:28:51.332360: clock-in
+
 # 2019-09-12 16:26:24.646145: clock-out
 
 * Continuing field line integration
