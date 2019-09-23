@@ -1,3 +1,7 @@
+# 2019-09-23 16:57:15.731618: clock-out
+
+* working on field visualization
+* checking if B(x_1(t), t) = B_1(t) - they don't match!
 
 # 2019-09-23 14:46:33.197125: clock-in
 
