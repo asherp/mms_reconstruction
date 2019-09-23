@@ -1,3 +1,6 @@
+
+# 2019-09-23 18:24:03.295200: clock-in
+
 # 2019-09-23 16:57:15.731618: clock-out
 
 * working on field visualization
