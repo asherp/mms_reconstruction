@@ -1,3 +1,6 @@
+# 2019-09-24 12:26:17.654250: clock-out
+* Finally able to reproduce 3d figure
+* Must use orthographic projection and set x,y,z ranges to +/- 2.5
 
 # 2019-09-24 11:56:08.986150: clock-in
 
