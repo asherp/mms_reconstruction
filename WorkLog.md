@@ -1,3 +1,9 @@
+# 2019-09-27 16:47:52.029164: clock-out
+* Looked at bringing in mms data
+* MMS is not a registered pysat datasource
+* HelioPy does have the data, however.
+* Kamodofy HelioPy?
+* You should kamodofy the solver portion of the Denton class first
 
 # 2019-09-27 16:44:05.900538: clock-in
 
