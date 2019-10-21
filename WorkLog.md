@@ -1,3 +1,6 @@
+# 2019-10-21 18:40:16.347861: clock-out
+* Created notebook just for tracing
+* Made documentation site 
 
 # 2019-10-21 16:01:41.526969: clock-in
 
