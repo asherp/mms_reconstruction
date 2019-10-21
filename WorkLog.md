@@ -1,3 +1,6 @@
+
+# 2019-10-21 16:01:41.526969: clock-in
+
 # 2019-09-27 16:47:52.029164: clock-out
 * Looked at bringing in mms data
 * MMS is not a registered pysat datasource
