@@ -28,3 +28,12 @@ We want the solution to be as faithful to the data and physics as possible.
 
 * Default behavior should be on the conservative side
 * Plasmoids
+
+
+## Generating docs
+
+You will need mkdocs to generate this documentation site
+
+	pip install mkdocs
+	pip install mknotebooks
+	pip install python-markdown-math

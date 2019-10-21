@@ -1,4 +1,4 @@
-function result = B2d(intro, setup, soln, i)
+function result = B2d(intro, setup, soln, i, La, Ln)
 
 
 Lmax = intro.Lmax;
@@ -22,11 +22,14 @@ ipl = 1;
 % end
 % if( numel(i41)~=n41 ), error(['numel(i41) = ' numel(i41) ' <> ' num2str(n41)]); end
 
-nL = 31; nLcut = 7;
-La = linspace(-Lmax,Lmax,nL); dL = La(2) - La(1);
-Lacut = linspace(-Lmax,Lmax,nLcut);
+% nL = 31; 
+% nLcut = 7;
+nL = length(La);
+% La = linspace(-Lmax,Lmax,nL); dL = La(2) - La(1);
+
+% Lacut = linspace(-Lmax,Lmax,nLcut);
 [L2D,N2D] = meshgrid(La);
-[L2Dcut,N2Dcut] = meshgrid(Lacut);
+% [L2Dcut,N2Dcut] = meshgrid(Lacut);
 %   M2D = zeros(size(L2D));
 casc = [ gray ; 1 0 0 ; 0 .8 0 ; .2 .2 1 ];
 fwh = .65;

@@ -1048,5 +1048,8 @@ soln.Jp0fit = Jp0fit;
 soln.Jpvav3 = Jpvav3;
 soln.Jpv3 = Jpv3;
 
+soln.X = X;
+soln.Y = Y;
+
 end
 % end functino

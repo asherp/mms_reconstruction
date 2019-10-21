@@ -388,6 +388,7 @@ Jpvav2 = squeeze(mean(Jpv2,3));
 setup.nt = nt;
 setup.iScOut = iScOut;
 
+setup.xv = xv;
 setup.xvn = xvn;
 setup.bvn = bvn;
 setup.Jpvn = Jpvn;
