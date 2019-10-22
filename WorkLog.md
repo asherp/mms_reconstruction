@@ -1,3 +1,6 @@
+# 2019-10-22 12:28:36.187208: clock-out
+* Creating new pysat MMS repo
+* not sure who to charge development to, so will clock in/out there
 
 # 2019-10-22 12:25:51.586766: clock-in
 
