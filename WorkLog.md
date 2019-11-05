@@ -1,3 +1,8 @@
+# 2019-11-05 15:44:58.793988: clock-out
+* trying to load data with pyspedas
+* downloaded files to /Users/apembrok/git/mms/spedas_data/
+* moved spedas notebook to /Users/apembrok/git/pyspedas
+* got data to load, but metadata attributes are not being stored in pytplot's dictionary correctly
 
 # 2019-11-05 12:12:40.977742: clock-in
 
