@@ -1,3 +1,6 @@
+
+# 2019-11-05 12:12:40.977742: clock-in
+
 # 2019-11-04 14:45:14.864435: clock-out
 * continuing work on pysat MMS repo
 
