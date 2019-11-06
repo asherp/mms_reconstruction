@@ -1,3 +1,6 @@
+
+# 2019-11-06 11:31:33.624628: clock-in
+
 # 2019-11-05 15:44:58.793988: clock-out
 * trying to load data with pyspedas
 * downloaded files to /Users/apembrok/git/mms/spedas_data/
