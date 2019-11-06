@@ -1,3 +1,6 @@
+# 2019-11-06 13:15:22.427279: clock-out
+* updated pyspedas print var wrapper to preserve signature
+* started building kamodo class for pyspedas
 
 # 2019-11-06 11:31:33.624628: clock-in
 
