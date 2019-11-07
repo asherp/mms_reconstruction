@@ -1,8 +1,10 @@
+# 2019-11-07 11:07:11.376697: clock-out
+* work on pyspedas
 
 # 2019-11-07 11:05:19.500878: clock-in
 
 # 2019-11-07 10:26:05.433768: clock-out
-## FPI meeting
+* FPI meeting - gave presentation on Denton-Kamodo interface
 
 # 2019-11-07 08:30:42.313457: clock-in
 
