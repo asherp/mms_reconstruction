@@ -1,3 +1,6 @@
+
+# 2019-11-08 09:41:13.088176: clock-in
+
 # 2019-11-07 12:01:58.079348: clock-out
 * pyspedas
 * got variables into pandas dataframe
