@@ -1,7 +1,10 @@
+# 2019-11-08 11:18:44.408861: clock-out
+* setting up user password/login for lasp
 
 # 2019-11-08 11:11:12.818257: clock-in
 
 # 2019-11-08 11:09:56.305889: clock-out
+* got kamodofied pyspedas!
 
 # 2019-11-08 09:41:13.088176: clock-in
 
