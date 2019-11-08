@@ -1,3 +1,5 @@
+# 2019-11-08 13:32:10.099029: clock-out
+* moved kamodofied pyspedas into git/mms/pyspedas_kamodo
 
 # 2019-11-08 12:25:09.249455: clock-in
 
@@ -8,6 +10,7 @@
 
 # 2019-11-08 11:09:56.305889: clock-out
 * got kamodofied pyspedas!
+* fixed deprecation errors in kamodo that were showing up in pyspedas_kamodo
 
 # 2019-11-08 09:41:13.088176: clock-in
 
