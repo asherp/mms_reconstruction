@@ -1,3 +1,6 @@
+
+# 2019-11-08 12:25:09.249455: clock-in
+
 # 2019-11-08 11:18:44.408861: clock-out
 * setting up user password/login for lasp
 
