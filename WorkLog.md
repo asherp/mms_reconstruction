@@ -1,3 +1,15 @@
+# 2019-11-11 15:05:49.850018: clock-out
+* working on pyspedas-kamodo
+
+## meeting with Pat
+
+Events to look at:
+* 2016-12-24 15:03:00
+* 2018-09-08 14:51:30-14:51:33 (this one is missing currents for one of the spacecraft)
+* Show vector plots for spacecraft in 2d or 3d
+* time shift plots so they line up
+* might be able to use J_3 for J_4 where J_4 is missing data
+* One month to AGU!
 
 # 2019-11-11 12:26:03.446798: clock-in
 
