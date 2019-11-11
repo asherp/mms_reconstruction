@@ -1,3 +1,5 @@
+# 2019-11-11 12:26:00.192497: clock-out: T-30m
+* moved ~/git/pyspedas/spedas.ipynb to ~/git/mms/.
 
 # 2019-11-11 11:23:12.759785: clock-in
 
