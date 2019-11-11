@@ -1,3 +1,6 @@
+
+# 2019-11-11 11:23:12.759785: clock-in
+
 # 2019-11-08 13:32:10.099029: clock-out
 * moved kamodofied pyspedas into git/mms/pyspedas_kamodo
 
