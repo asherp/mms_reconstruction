@@ -1,3 +1,6 @@
+
+# 2019-11-11 15:32:10.489144: clock-in
+
 # 2019-11-11 15:05:49.850018: clock-out
 * working on pyspedas-kamodo
 
