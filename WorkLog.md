@@ -1,3 +1,6 @@
+
+# 2019-11-12 09:57:44.742674: clock-in
+
 # 2019-11-11 16:43:52.293078: clock-out
 * adding var_atts to stored tplot attributes... 
 * notplot doesn't return the full array, only one column
