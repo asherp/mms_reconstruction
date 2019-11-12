@@ -1,3 +1,6 @@
+
+# 2019-11-12 10:26:07.048270: clock-in
+
 # 2019-11-12 10:18:54.587009: clock-out
 * installing the latest pysat so I can import pysatCDF
 
