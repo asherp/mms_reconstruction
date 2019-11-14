@@ -1,6 +1,8 @@
+
+# 2019-11-14 09:40:54.993739: clock-in
+
 # 2019-11-12 14:16:38.951019: clock-out
 * got kamodofied pysatCDF with mms fields working
-
 
 # 2019-11-12 12:30:16.048548: clock-in
 
