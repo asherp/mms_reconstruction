@@ -1,3 +1,10 @@
+# 2019-11-14 14:03:01.255066: clock-out
+* We need to generate mms_read_mag_pos_magBurst2.mat content from MakeAaProcess
+* idl files basically load data then save to disk, which Matlab files load
+* we just need the name of the routine that corresponds to the file matlab is trying to read
+* hopefully can use mms_load_mec instead of mms_load_state
+* Looking at rekamodoupdates
+* ReadMmsIntro iburst=2 -> ReadMmsBurstProcess, MakeAaProcess
 
 # 2019-11-14 11:05:14.687485: clock-in
 
