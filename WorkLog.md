@@ -1,3 +1,6 @@
+
+# 2019-11-14 11:05:14.687485: clock-in
+
 # 2019-11-14 10:34:18.402794: clock-out
 * loaded the christmas 2016 event with pysatCDF_Kamodo
 * loaded the september 2018 event and visualized
