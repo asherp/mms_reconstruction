@@ -1,3 +1,6 @@
+
+# 2019-11-14 15:43:17.139656: clock-in
+
 # 2019-11-14 14:03:01.255066: clock-out
 * We need to generate mms_read_mag_pos_magBurst2.mat content from MakeAaProcess
 * idl files basically load data then save to disk, which Matlab files load
