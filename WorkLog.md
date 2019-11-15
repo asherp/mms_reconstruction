@@ -1,3 +1,6 @@
+
+# 2019-11-15 10:56:01.004152: clock-in
+
 # 2019-11-15 10:37:04.610006: clock-out
 * getting ftp access from poly for pat's run
 
