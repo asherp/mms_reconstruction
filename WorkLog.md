@@ -1,9 +1,16 @@
+
+# 2019-11-15 10:26:36.827333: clock-in
+
 # 2019-11-14 19:44:25.108386: clock-out
 * Trying to load l3 data doesn't work - it may require username/password
 * Looking on cdaweb, L3 data isn't available!
 * Set my lasp login in `~/mms_auth_info.pkl` - that works!
 
+Tried this:
+
 	variables = mms_load_fsm(trange = ['2017-07-11 22:00:00','2017-07-11 23:00:00'])
+	
+pyspedas presentation: http://spedas.org/mms/mms_gem_2019.pdf
 
 # 2019-11-14 18:05:22.119528: clock-in
 
