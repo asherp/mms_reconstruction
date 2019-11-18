@@ -1,3 +1,6 @@
+
+# 2019-11-18 17:03:14.148349: clock-in
+
 # 2019-11-18 15:09:55.405489: clock-out
 * looking into why pysatCDF can't load some variable names
 
