@@ -1,7 +1,10 @@
+# 2019-11-18 15:09:55.405489: clock-out
+* looking into why pysatCDF can't load some variable names
 
 # 2019-11-18 14:42:30.875945: clock-in
 
 # 2019-11-18 14:24:00.642767: clock-out
+* Loading fpi data - ran into issues reading cdf
 
 # 2019-11-18 12:44:09.254274: clock-in
 
