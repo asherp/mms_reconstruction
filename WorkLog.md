@@ -1,3 +1,6 @@
+
+# 2019-11-19 09:38:03.237321: clock-in
+
 # 2019-11-18 17:12:56.040000: clock-out
 * making issue on pysatCDF? There is already an issue on multidemensional cdf assigned to Asher...
 
