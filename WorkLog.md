@@ -1,3 +1,7 @@
+# 2019-11-19 14:06:18.829370: clock-out
+* Loaded all data with cdflib!
+* Spectral data not needed right now
+* kamodofying cdflib!
 
 # 2019-11-19 12:21:15.991936: clock-in
 
