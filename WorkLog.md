@@ -1,3 +1,6 @@
+
+# 2019-11-27 10:09:55.966940: clock-in
+
 # 2019-11-22 10:59:14.730854: clock-out
 * Got fpi and fsm data loaded
 
