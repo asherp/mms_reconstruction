@@ -1,3 +1,5 @@
+# 2019-11-27 11:46:38.212480: clock-out
+* there's something wrong with the components when loading
 
 # 2019-11-27 10:09:55.966940: clock-in
 
