@@ -1,3 +1,6 @@
+
+# 2019-12-04 14:01:18.384452: clock-in
+
 # 2019-12-04 13:29:56.099315: clock-out
 * Writing blurb on visualization
 
