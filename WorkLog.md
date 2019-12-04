@@ -1,3 +1,6 @@
+
+# 2019-12-04 13:16:32.535471: clock-in
+
 # 2019-11-27 16:57:40.702318: clock-out
 * setting up bluetooth sharing for runfiles
 
