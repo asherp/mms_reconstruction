@@ -1,10 +1,20 @@
+# 2019-12-04 16:51:58.455619: clock-out
+* meeting with pat
+
+Kamodofying Denton Reconstruction
+> The Kamodofied Denton class provides a python interface for Denton et al's matlab analysis code using Oct2py. This allows each step of the analysis pipeline to be exposed as kamodo functions ready for visualization, including field line
+
+* create an image of the logic of the denton construction?
+* create a video exploring reconnection event
+* write more blurbs
+* create images of kamodofied cdflib? Anything we can show work I've done with mms and kamodo
 
 # 2019-12-04 14:01:18.384452: clock-in
 
 # 2019-12-04 13:29:56.099315: clock-out
 * Writing blurb on visualization
 
-> Visualization of the reconnection site is provided by Kameleon-live, a web visualization tool from the CCMC. Kameleon-live provides an exploratory, interactive 3D interface for MHD models hosted by the CCMC, whereby cut planes are defined by a set of sliders and colormaps for a given scalar quantity and field lines are seeded from mouse clicks points on the currently hovered plane.
+> Visualization of the reconnection site is provided by Kameleon-live, a web visualization tool from the CCMC. Kameleon-live provides an exploratory, interactive 3D interface for MHD models hosted by the CCMC, whereby cut planes are defined by a set of sliders and colormaps for a given scalar quantity and field lines are seeded by clicking on the currently hovered plane.
 
 # 2019-12-04 13:16:32.535471: clock-in
 
