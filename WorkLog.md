@@ -1,3 +1,7 @@
+# 2019-12-04 13:29:56.099315: clock-out
+* Writing blurb on visualization
+
+> Visualization of the reconnection site is provided by Kameleon-live, a web visualization tool from the CCMC. Kameleon-live provides an exploratory, interactive 3D interface for MHD models hosted by the CCMC, whereby cut planes are defined by a set of sliders and colormaps for a given scalar quantity and field lines are seeded from mouse clicks points on the currently hovered plane.
 
 # 2019-12-04 13:16:32.535471: clock-in
 
