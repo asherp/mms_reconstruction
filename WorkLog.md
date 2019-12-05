@@ -1,3 +1,6 @@
+
+# 2019-12-05 17:46:39.609436: clock-in
+
 # 2019-12-05 17:01:15.329955: clock-out
 * finding out which polysolution I'm plotting - should be reduced quadratic (fig 9b)
 * need to submit hours. Should include hours from paper review which were tracked separately
