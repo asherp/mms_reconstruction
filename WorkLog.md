@@ -1,3 +1,6 @@
+
+# 2019-12-05 15:14:47.369459: clock-in
+
 # 2019-12-05 11:53:08.013125: clock-out
 * reconstructing fieldlines in Pipeline
 * got fieldlines to render again
