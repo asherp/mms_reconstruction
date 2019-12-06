@@ -1,3 +1,6 @@
+
+# 2019-12-06 08:22:00.880592: clock-in
+
 # 2019-12-05 18:28:06.871092: clock-out
 * Found nsmoothspan is not set!
 * got Fig 9 working! https://www.youtube.com/watch?v=GVM8EeUO2Nw&feature=youtu.be
