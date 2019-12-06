@@ -1,3 +1,22 @@
+# 2019-12-06 12:47:32.264699: clock-out
+## Fig 1e (reproduction)
+
+This movie shows an interactive session using the Kamodofied Denton analysis within a jupyter notebook. We are able to reproduce Fig 1e using Kamodo's functional interface, allowing for interactive exploration of the data. We may also choose a custom time range from the available data, and an upcoming feature will be application of the analysis pipeline to events not covered in the paper.
+
+https://youtu.be/GK19dXhr4Ww
+
+## cdf_Kamodo interface
+
+This movie shows an interactive jupyter notebook session cdf kamodo interface to load data from the MMS spacecraft. 
+The user specifies a cdf file (e.g. obtained from pyspedas), and kamodo generates
+interpolation functions based on the variables and their dependencies.
+
+## fpi data
+
+An image of the fpi spectra for the Aug 10 event is obtained from the Kamodofied cdf interface.
+This interface represents multi-dimensional cdf data as functions of independent variables. 
+Kamodo's can then generate quick-look graphics through function inspection.
+
 
 # 2019-12-06 10:46:12.552524: clock-in: T-20m
 
