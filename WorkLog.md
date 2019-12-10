@@ -1,3 +1,6 @@
+
+# 2019-12-10 17:42:30.077478: clock-in
+
 # 2019-12-10 10:53:54.484560: clock-out
 * testing zoom meeting room
 
