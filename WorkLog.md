@@ -1,3 +1,8 @@
+
+# 2020-01-27 22:02:53.878382: clock-in
+
+Submitting .93 hours from paper review
+
 # 2019-12-10 20:06:06.626744: clock-out
 * elightning
 
