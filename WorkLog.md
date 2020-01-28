@@ -1,3 +1,5 @@
+# 2020-01-28 09:25:41.979326: clock-out
+
 * responding to emails
 
 # 2020-01-28 09:16:04.926895: clock-in
