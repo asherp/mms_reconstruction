@@ -2,7 +2,8 @@ site_name: Denton Analysis Tool
 
 nav:
 - Home: README.md
-- Introduction: Denton.ipynb
+- Reconstruction: PolyReconstruction.ipynb
+- Fieldlines: FieldLines.ipynb
 
 theme: readthedocs
 plugins:

@@ -1,6 +1,11 @@
 # About
 
-This repo tracks development of MMS analysis with Kamodo
+This repo tracks development of MMS analysis with Kamodo. Currently, the kamodofied Denton reconstruction code performs
+the analysis on a matlab drump of the event from Denton et al. 2019. We have also developed a kamodofied cdf
+reader that provides a functional interface to cdf files such as those produced by pyspedas, as demonstrated
+in [this video](https://www.youtube.com/watch?v=g5Ftm0H_7yc). The eventual goal is to combine the two
+so we can run the polynomial reconstruction on any event from MMS.
+
 
 ## Polynomial Expansion
 

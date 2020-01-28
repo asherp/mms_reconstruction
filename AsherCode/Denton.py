@@ -17,7 +17,7 @@ def array_interpolator(t, a, columns = None):
     return interp1d(t, a.T, bounds_error=False, copy = False)
 
 class Denton(Kamodo):
-    def __init__(self, sDirData = '.', nsmoothspan0 = 1, solve = True, **kwargs):
+    def __init__(self, sDirData = '.', nsmoothspan0 = None, solve = True, **kwargs):
         self.citation = "Denton et al, 2019"
         
         self.sDirData = sDirData
@@ -40,7 +40,7 @@ class Denton(Kamodo):
 
         self.set_lambdas()
         self.set_xv()
-        self.set_efield()
+        self.set_gradient()
         self.set_bfield()
         
             
@@ -85,8 +85,8 @@ class Denton(Kamodo):
             self.register_field(varname, "position of MMS-{ispacecraft} in LMN coordinates", 
                 ispacecraft = i+1, columns = list('LMN'))
 
-    def set_efield(self):
-        '''Sets electric field interpolators'''
+    def set_gradient(self):
+        '''Sets gradient interpolators'''
         strengths = ['intermediate', 'minimum', 'maximum']
         for i, c in enumerate('lmn'):
             varname = 'evec_{}'.format(c)
