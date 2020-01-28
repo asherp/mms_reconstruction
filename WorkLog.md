@@ -1,3 +1,5 @@
+# 2020-01-27 22:58:17.535020: clock-out
+
 * cleaning up README
 * added link to github
 * preping website
