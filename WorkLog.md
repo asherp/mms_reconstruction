@@ -1,3 +1,4 @@
+* added link to github
 * preping website
 
 # 2020-01-27 22:02:53.878382: clock-in

@@ -6,6 +6,7 @@ reader that provides a functional interface to cdf files such as those produced 
 in [this video](https://www.youtube.com/watch?v=g5Ftm0H_7yc). The eventual goal is to combine the two
 so we can run the polynomial reconstruction on any event from MMS.
 
+This project is hosted on github: https://github.com/asherp/mms_reconstruction
 
 ## Polynomial Expansion
 

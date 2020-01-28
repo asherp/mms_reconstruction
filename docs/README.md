@@ -7,6 +7,8 @@ in [this video](https://www.youtube.com/watch?v=g5Ftm0H_7yc). The eventual goal 
 so we can run the polynomial reconstruction on any event from MMS.
 
 
+This project is hosted on github - https://github.com/asherp/mms_reconstruction
+
 ## Polynomial Expansion
 
 1. Linear Model - Only linear variation in B
