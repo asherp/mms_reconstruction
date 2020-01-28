@@ -1,3 +1,4 @@
+* cleaning up README
 * added link to github
 * preping website
 

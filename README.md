@@ -24,17 +24,6 @@ This project is hosted on github: https://github.com/asherp/mms_reconstruction
 * Quadratic-linear are or Reduced quadratic are better fits for the event, though reduced quadratic does better when there is poor sampling of the structure and the plasma sheet transition appears better
 * Plasmoids may not be realistic since the model is quadratic and likes to form plasmoids whether or not they are in the data.
 
-## Taylor Expansion
-
-Fu et al. [2015] has a first-order Taylor expansion (FOTE) that gives the x-line distance and null point. 
-
-# Design goals
-
-We want the solution to be as faithful to the data and physics as possible.
-
-* Default behavior should be on the conservative side
-* Plasmoids
-
 
 ## Generating docs
 
