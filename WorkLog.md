@@ -1,3 +1,4 @@
+* updating docs
 # 2020-02-11 10:30:35.735202: clock-out
 
 * including example IDL code from Denton
