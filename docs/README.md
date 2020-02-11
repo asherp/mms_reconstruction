@@ -25,6 +25,9 @@ This project is hosted on github - https://github.com/asherp/mms_reconstruction
 * Quadratic-linear are or Reduced quadratic are better fits for the event, though reduced quadratic does better when there is poor sampling of the structure and the plasma sheet transition appears better
 * Plasmoids may not be realistic since the model is quadratic and likes to form plasmoids whether or not they are in the data.
 
+## Example IDL code
+
+Code for retrieving data for the sample reconstruction may be found [here](https://github.com/asherp/mms_reconstruction/tree/master/Example_IDL_code)
 
 ## Generating docs
 
